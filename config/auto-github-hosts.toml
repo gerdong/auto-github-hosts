@@ -1,0 +1,55 @@
+# 要更新的hosts域名列表
+hosts = ["github.com",
+    "github.io",
+]
+
+hosts2 = ["github.global.ssl.fastly.net",
+    "assets-cdn.github.com",
+    "documentcloud.github.com",
+    "gist.github.com",
+    "gist.githubusercontent.com",
+    "github.githubassets.com",
+    "help.github.com",
+    "nodeload.github.com",
+    "raw.github.com",
+    "status.github.com",
+    "training.github.com",
+    "avatars.githubusercontent.com",
+    "avatars0.githubusercontent.com",
+    "avatars1.githubusercontent.com",
+    "avatars2.githubusercontent.com",
+    "avatars3.githubusercontent.com",
+    "avatars4.githubusercontent.com",
+    "avatars5.githubusercontent.com",
+    "avatars6.githubusercontent.com",
+    "avatars7.githubusercontent.com",
+    "avatars8.githubusercontent.com",
+    "favicons.githubusercontent.com",
+    "codeload.github.com",
+    "github-cloud.s3.amazonaws.com",
+    "github-com.s3.amazonaws.com",
+    "github-production-release-asset-2e65be.s3.amazonaws.com",
+    "github-production-user-asset-6210df.s3.amazonaws.com",
+    "github-production-repository-file-5c1aeb.s3.amazonaws.com",
+    "githubstatus.com",
+    "github.community",
+    "media.githubusercontent.com",
+    "camo.githubusercontent.com",
+    "raw.githubusercontent.com",
+    "cloud.githubusercontent.com",
+    "user-images.githubusercontent.com",
+    "customer-stories-feed.github.com",
+    "pages.github.com",
+    "api.github.com",
+    "live.github.com",
+    "githubapp.com",
+    "github.dev",
+    "github.com",
+    "github.io",
+]
+
+# 自动更新hosts的时间间隔，单位为小时
+update_interval = 2
+
+# 启动时是否自动更新hosts
+immediately_at_startup = true
